@@ -2,7 +2,13 @@
 一个局域网文字/文件P2P传输工具
 > 项目中仅在线用户列表和WebRTC信令迫不得已需要一个轻量化的服务，其他数据传输都采用了基于WebRTC的点对点传输，不经过中间服务器，所以局域网内互传一些文字/文件都比较快。
 
-demo演示：https://fagedongxi.com
+```shell
+terser www/index.js -o www/dist/index.min.js --compress drop_console=true
+```
+
+```shell
+cssnano www/style.css www/dist/style.min.css
+```
 
 ## 优点
 无需安装任何软件，打开浏览器，无需登录直接传输。
